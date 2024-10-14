@@ -1,3 +1,10 @@
-* -text
-# Reclassifies `Dockerfile*` files as Dockerfile:
-Dockerfile.* linguist-language=Dockerfile
+ruta/al/archivo/libclang.dll filter=lfs diff=lfs merge=lfs -text
+ruta/al/archivo/_pywrap_tensorflow_internal.pyd filter=lfs diff=lfs merge=lfs -text
+C:/Users/GenX/chatbot-env/Lib/site-packages/clang/native filter=lfs diff=lfs merge=lfs -text
+C:/Users/GenX/chatbot-env/Lib/site-packages/tensorflow/python filter=lfs diff=lfs merge=lfs -text
+C:/Users/GenX/chatbot-env/Lib/site-packages/tensorflow/python filter=lfs diff=lfs merge=lfs -text
+C:/Users/GenX/chatbot-env/Lib/site-packages/clang/native filter=lfs diff=lfs merge=lfs -text
+C:/Users/GenX/chatbot-env/Lib/site-packages/clang/native/libclang.dll filter=lfs diff=lfs merge=lfs -text
+C:/Users/GenX/chatbot-env/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd filter=lfs diff=lfs merge=lfs -text
+Lib/site-packages/clang/native/libclang.dll filter=lfs diff=lfs merge=lfs -text
+Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,84 @@
+version: "3.0"
+nlu:
+- intent: greet
+  examples: |
+    - hola
+    - buenos días
+    - buenas tardes
+    - hey
+    - hola, ¿qué tal?
+    - Hola, que tal?
+    - hola!
+- intent: goodbye
+  examples: |
+    - adiós
+    - nos vemos
+    - hasta luego
+    - ciao
+    - chao
+    - hasta pronto
+    - Hasta la próxima
+    - Hasta la vista
+- intent: affirm
+  examples: |
+    - sí
+    - exacto
+    - eso es
+    - cierto
+    - va a ser que sí
+- intent: deny
+  examples: |
+    - no
+    - no, gracias
+    - nada
+    - para nada
+- intent: mood_great
+  examples: |
+    - genial
+    - ¡Qué guay!
+    - qué bien
+    - estoy bien
+    - soy feliz
+    - estoy contento
+    - cómo mola
+    - mola mucho
+    - ¡yuju!
+- intent: mood_unhappy
+  examples: |
+    - estoy triste
+    - triste
+    - muy triste
+    - no ando muy bien
+    - no me siento bien
+    - no estoy muy allá
+    - me siento raro
+    - me noto tenso
+- intent: bot_challenge
+  examples: |
+    - ¿eres un bot?
+    - ¿eres humano?
+    - ¿estoy hablando con un bot?
+    - ¿estoy hablando con un humano?
+    - eres un robot?
+- intent: out_of_scope
+  examples: |
+    - ¿Tienes comida?
+    - Da una voltereta
+    - pásame un refresco
+
+- intent: bot_name
+  examples: |
+    - ¿Cómo te llamas?
+    - Cuál es tu nombre
+    - ¿Tienes nombre?
+    - Y tú te llamas...
+    - Quién eres
+
+- intent: ask_mood
+  examples: |
+    - cómo estas
+    - ¿estás bien?
+- intent: thanks
+  examples: |
+    - gracias
+    - gracias, Marvin
