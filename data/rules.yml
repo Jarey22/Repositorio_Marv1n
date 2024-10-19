@@ -2,12 +2,12 @@ version: "3.1"
 
 rules:
 
-- rule: Decir adiós cada vez que el usuario dice adiós
+- rule: Decir_adiós_cada_vez_que_el_usuario_dice_adiós
   steps:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Decir que es un robot cada vez que el usuario le reta
+- rule: Decir_que_es_un_robot_cada_vez_que_el_usuario_le_pregunta
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
@@ -17,9 +17,24 @@ rules:
   - intent: out_of_scope
   - action: utter_out_of_scope
 
-
 - rule: Marvin_no_lo_ha_entendido
   steps:
   - intent: nlu_fallback
   - action: utter_ask_rephrase
+
+- rule: Decir_como_esta_cuando_se_pregunte
+  steps:
+  - intent: estado
+  - action: utter_estado
+
+- rule: se_pregunta_por_cide
+  steps:
+  - intent: preguntar_por_cide
+  - action: utter_respuesta_cide
+
+- rule: usuario_le_pregunta_el_nombre
+  steps:
+  - intent: bot_name
+  - action: utter_bot_name
+
 

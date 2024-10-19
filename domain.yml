@@ -14,8 +14,9 @@ intents:
 - mood_unhappy
 - bot_name
 - out_of_scope
-- ask_mood
+- preguntar_por_cide
 - thanks
+- estado
 
 
 responses:
@@ -23,6 +24,8 @@ responses:
   - text: ¡Hey! ¿Qué tal? ¿Puedo ayudarte en algo?
   - text: ¡Hola hola, caracola! 
   - text: Hola, holita :D
+  - text: Holaa!! como vas?
+  - text: Que hay de nuevo amig@?
 
   utter_cheer_up:
   - text: Esto te animará
@@ -35,18 +38,25 @@ responses:
   utter_happy:
   - text: ¡Me alegra que estés feliz!
   - text: :D
-  - text: :)
-  - text: ;)
-  - text: Te noto alegre :D
+  - text: Es bueno saber que estas bien :)
+  - text: Ay que bien ;3
+  - text: Lo noto y me alegro por ti :D
 
   utter_goodbye:
   - text: Hasta pronto
   - text: Sayonara...
   - text: ¡Hasta la vista!
   - text: ¡Nos vemos!
+  - text: Te huelo luego viejo
 
   utter_iamabot:
   - text: Soy un bot, ¿mola?
+  - text: Asi es soy un robot
+  - text: Es correcto soy un bot
+  - text: Es correcto soy un robot
+  - text: Si, barbaro verdad?
+  - text: Lo se, genial no?
+  - text: Si lo soy, pero eso no me quita lo pro
 
   utter_anything_else:
   - text: ¿Puedo ayudarte en algo más?
@@ -63,18 +73,31 @@ responses:
   
   utter_bot_name:
   - text: Soy Marvin :)
+  - text: Soy la Maravilla, digo Marvin :D
+  - text: Me llaman Marvin
+  - text: Soy tu ayudante favorito Marvin
 
   your_welcome:
   - text: Para eso estamos :D
   - text: De nada :) ¿Algo más?
 
-  utter_ask_mood:
-  - text: Muy bien, gracias :D
-  - text: Ya sabes, aquí... y allí, y allá... no me aburro demasiado :P
+  utter_respuesta_cide:
+  - text: La universidad se llama CORPORACION INTERNACIONAL PARA EL DESARROLLO EDUCATIVO o CIDE
+  - text: Se llama CIDE para variar ya que es una sigla
 
   utter_default:
   - text: ¿Me estás hablando en chino o algo así?
   - text: Vaya... no me he enterado de nada... ¡Qué? :S
+
+  utter_estado:
+  - text: Me encuentro bien, ando al 100%
+  - text: Estoy de maravilla!! 
+  - text: Me siento genial
+  - text: Muy bien, gracias :D
+  - text: Ya sabes, aquí... y allí, y allá... no me aburro demasiado :P
+
+  utter_respuesta_estado:
+  - text: y tu?
   
 
 actions:
@@ -85,5 +108,7 @@ actions:
 - utter_happy
 - utter_iamabot
 - utter_out_of_scope
-- utter_ask_mood
+- utter_respuesta_cide
 - your_welcome
+- utter_estado
+- utter_respuesta_estado

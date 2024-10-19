@@ -2,13 +2,19 @@ version: "3.1"
 nlu:
 - intent: greet
   examples: |
-    - hola
     - buenos días
     - buenas tardes
+    - buenas noches
+    - Buenos días
+    - Buenas tardes
+    - Buenas noches
     - hey
+    - Hey
     - hola, ¿qué tal?
     - Hola, que tal?
-    - hola!
+    - Hola
+    - hola
+
 - intent: goodbye
   examples: |
     - adiós
@@ -19,6 +25,7 @@ nlu:
     - hasta pronto
     - Hasta la próxima
     - Hasta la vista
+
 - intent: affirm
   examples: |
     - sí
@@ -32,6 +39,7 @@ nlu:
     - no, gracias
     - nada
     - para nada
+    
 - intent: mood_great
   examples: |
     - genial
@@ -43,6 +51,7 @@ nlu:
     - cómo mola
     - mola mucho
     - ¡yuju!
+
 - intent: mood_unhappy
   examples: |
     - estoy triste
@@ -53,32 +62,70 @@ nlu:
     - no estoy muy allá
     - me siento raro
     - me noto tenso
+
 - intent: bot_challenge
   examples: |
-    - ¿eres un bot?
-    - ¿eres humano?
-    - ¿estoy hablando con un bot?
-    - ¿estoy hablando con un humano?
+    - eres un bot?
+    - eres humano?
+    - estoy hablando con un bot?
+    - estoy hablando con un humano?
     - eres un robot?
+    - Eres un bot?
+    - Eres humano?
+    - Estoy hablando con un bot?
+    - Estoy hablando con un humano?
+    - Eres un robot?
+
 - intent: out_of_scope
   examples: |
-    - ¿Tienes comida?
+    - tienes comida?
+    - da una voltereta
+    - pasame un refresco
+    - Tienes comida?
     - Da una voltereta
-    - pásame un refresco
+    - Pasame un refresco
 
 - intent: bot_name
   examples: |
-    - ¿Cómo te llamas?
-    - Cuál es tu nombre
-    - ¿Tienes nombre?
-    - Y tú te llamas...
-    - Quién eres
+    - como te llamas?
+    - cual es tu nombre
+    - tienes nombre?
+    - y tu te llamas...
+    - quien eres
+    - y nombre es?
+    - Como te llamas?
+    - Cual es tu nombre
+    - Tienes nombre?
+    - Y tu te llamas...
+    - Quien eres
+    - Y nombre es?
 
-- intent: ask_mood
+- intent: preguntar_por_cide
   examples: |
-    - cómo estas
-    - ¿estás bien?
+    - como se llama la universidad?
+    - cual es lugar de tu creacion
+    - de donde eres?
+    - de donde saliste?
+    - Como se llama la universidad?
+    - Cual es lugar de tu creacion
+    - De donde eres?
+    - De donde saliste?
+
 - intent: thanks
   examples: |
     - gracias
     - gracias, Marvin
+    - gracias amigo
+    - Gracias
+    - Gracias, Marvin
+    - Gracias amigo
+
+- intent: estado
+  examples: |
+    - como te encuentras?
+    - como vas?
+    - como estas?
+    - Como estas?
+    - Como vas?
+    - Como te encuentras?
+
