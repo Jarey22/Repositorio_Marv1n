@@ -25,6 +25,11 @@ nlu:
     - hasta pronto
     - Hasta la próxima
     - Hasta la vista
+    - bye
+    - Bye
+    - Adios
+    - Chao
+    - chao
 
 - intent: affirm
   examples: |
@@ -128,4 +133,23 @@ nlu:
     - Como estas?
     - Como vas?
     - Como te encuentras?
+- intent: herramientas
+  examples: |
+    - Que herramientas ofrece la universidad
+    - que herramientas ofrece la universidad
+    - Que apoyo ofrece la universidad
+    - que apoyo ofrece la universidad
+    - que apoyo tiene la universidad
+    - Que apoyo tiene la universidad
+
+- intent: cursos_complementarios
+  examples: |
+    - como puedo inscribirme a un curso complementario
+    - Como puedo inscribirme a un curso complementario
+    - como me puedo inscribir a un curso complementario
+    - Como me puedo inscribir a un curso complementario
+    - de que manera me puedo inscribir a un curso complementario
+    - De que manera me puedo inscribir a un curso complementario
+
+
 

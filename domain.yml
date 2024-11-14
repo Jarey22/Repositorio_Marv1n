@@ -17,6 +17,8 @@ intents:
 - preguntar_por_cide
 - thanks
 - estado
+- cursos_complementarios
+- herramientas
 
 
 responses:
@@ -98,7 +100,12 @@ responses:
 
   utter_respuesta_estado:
   - text: y tu?
-  
+
+  utter_cursos_complementarios:
+  - text: Para inscribir un curso complementario, deberías haber recibido un formulario de Google Forms en tu correo institucional con toda la información sobre los cursos disponibles y sus horarios. Si no has recibido este enlace, puedes comunicarte al correo xxxx@institucion.edu o dirigirte directamente a la Oficina de Bienestar para obtener más detalles. En caso de que las opciones registradas no te funcionen, también puedes consultar con la misma oficina sobre la apertura de nuevos cursos complementarios de manera virtual. Recuerda que para completar los requisitos de grado, en el nivel técnico debes cumplir con al menos un curso complementario, en el nivel tecnológico con dos, y en el nivel profesional con uno.
+
+  utter_herramientas:
+  - text:  La universidad ofrece una variedad de recursos para apoyar el desarrollo académico de los estudiantes, incluyendo dos salas especializadas con equipos Windows o Mac, herramientas para ejercicios eléctricos y videobeams, ubicadas en la sede principal (segundo piso) y en la sede Rionegro (tercer piso). Además, los estudiantes tienen acceso a la sala de cómputo de la sede principal fuera del horario de clases para realizar ejercicios. Junto con estos espacios, la universidad cuenta con una biblioteca física que ofrece libros sobre pensamiento crítico y temas tratados en clase, así como la biblioteca virtual E-book, que proporciona acceso a una amplia gama de recursos digitales, todo diseñado para complementar el aprendizaje y fomentar el desarrollo académico.
 
 actions:
 - utter_bot_name
@@ -112,3 +119,4 @@ actions:
 - your_welcome
 - utter_estado
 - utter_respuesta_estado
+- utter_cursos_complementarios

@@ -37,4 +37,14 @@ rules:
   - intent: bot_name
   - action: utter_bot_name
 
+- rule: usuario_le_pregunta_por_herramientas_universitarias
+  steps:
+  - intent: herramientas
+  - action: utter_herramientas
+
+- rule: usuario_le_pregunta_por_cursoscomplementarios
+  steps:
+  - intent: cursos_complementarios
+  - action: utter_cursos_complementarios
+
 
