@@ -47,4 +47,68 @@ rules:
   - intent: cursos_complementarios
   - action: utter_cursos_complementarios
 
+- rule: usuario_pregunta_por_horario
+  steps:
+  - intent: horario
+  - action: utter_horario
+
+- rule: usuario_pregunta_por_cronograma
+  steps:
+  - intent: cronograma
+  - action: utter_cronograma
+
+- rule: usuario_pregunta_ingreso_Sai
+  steps:
+  - intent: ingreso_Sai
+  - action: utter_ingreso_Sai
+
+- rule: usuario_pregunta_sede_galerias
+  steps:
+  - intent: sede_galerias
+  - action: utter_direccion_galerias
+
+- rule: usuario_pregunta_sede_principal
+  steps:
+  - intent: sede_principal
+  - action: utter_direccion_principal
+
+- rule: usuario_pregunta_sede_rionegro
+  steps:
+  - intent: sede_rionegro
+  - action: utter_direccion_rio_negro
+
+- rule: usuario_pregunta_sedes
+  steps:
+  - intent: sedes
+  - action: utter_direccion_sedes
+
+- rule: usuario_pregunta_tecnicos_laborales
+  steps:
+  - intent: Facultad_Tecnicos_Laborales
+  - action: utter_tecnicos_laborales
+
+- rule: usuario_pregunta_facultad_contabilidad
+  steps:
+  - intent: Facultad_de_Ciencias
+  - action: utter_direccion_contabilidad
+  
+- rule: usuario_pregunta_facultad_artes
+  steps:
+  - intent: Facultad_Artes
+  - action: utter_decano_artes
+  
+- rule: usuario_pregunta_facultad_electrica
+  steps:
+  - intent: Facultad_Ingenierias_electrica_mecatronica
+  - action: utter_decano_electrica
+  
+- rule: usuario_pregunta_facultad_sistemas
+  steps:
+  - intent: Facultad_Ingenierias_sistemas_industrial
+  - action: utter_decano_sistemas
+  
+- rule: usuario_pregunta_sedes
+  steps:
+  - intent: Facultad_Ingenieria
+  - action: utter_decanos_ingenierias
 

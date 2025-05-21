@@ -142,6 +142,19 @@ nlu:
     - que apoyo tiene la universidad
     - Que apoyo tiene la universidad
 
+- intent: cronograma
+  examples: |
+    - cuando inician las clases
+    - inicio clases
+    - fecha de clases
+    - cronograma
+
+- intent: horario
+  examples: |
+    - horario
+    - atencion
+    - horarido de atencion
+    
 - intent: cursos_complementarios
   examples: |
     - como puedo inscribirme a un curso complementario
@@ -151,5 +164,91 @@ nlu:
     - de que manera me puedo inscribir a un curso complementario
     - De que manera me puedo inscribir a un curso complementario
 
+- intent: ingreso_Sai
+  examples: |
+    - mi horario
+    - como consulto mi horario
+    - cual es mi horario 
+    - Donde encuentro mi horario
+    - sai
+    - SAI
 
+- intent: sede_galerias
+  examples: |
+    - Sede galerias
+    - barrio galerias
+    - ubicacion sede galerias
+    - Como me puedo inscribir a un curso complementario
+    - de que manera me puedo inscribir a un curso complementario
+    - De que manera me puedo inscribir a un curso complementario
 
+- intent: sede_rionegro
+  examples: |
+    - Sede rionegro
+    - barrio rionegro
+    - ubicacion sede rionegro
+    - Sede rio negro
+    - barrio rio negro
+    - ubicacion sede rio negro
+
+- intent: sede_principal
+  examples: |
+    - Sede principal
+    - barrio principal
+    - ubicacion sede principal
+
+- intent: sedes
+  examples: |
+    - cuantas sedes son
+    - sedes
+    - cuantas sedes hay?
+
+- intent: Facultad_Ingenierias_sistemas_industrial
+  examples: |
+    - Quien es el decano de ingenieria sistemas
+    - Quien es el decano de ingenieria industrial
+    - quien es el director de ingenieria sistemas
+    - quien es el director de ingenieria industrial
+    - quien es el representante de ingenieria sistemas
+    - quien es el representante de ingenieria industrial
+
+- intent: Facultad_Ingenierias_electrica_mecatronica
+  examples: |
+    - Quien es el decano de ingenieria electrica
+    - Quien es el decano de ingenieria mecatronica
+    - quien es el director de ingenieria mecatronica
+    - quien es el director de ingenieria electrica
+    - quien es el representante de ingenieria electrica
+    - quien es el representante de ingenieria mecatronica
+
+- intent: Facultad_Ingenieria
+  examples: |
+    - Quien es el decano de ingenierias
+    - quien es el director de ingenierias
+    - quien es el representante de ingenierias
+
+- intent: Facultad_Artes
+  examples: |
+    - Quien es el decano de Artes
+    - Quien es el decano de Comunicacion
+    - quien es el director de Artes
+    - quien es el director de Comunicacion
+    - quien es el representante de Artes
+    - quien es el representante de Comunicacion
+
+- intent: Facultad_de_Ciencias
+  examples: |
+    - Quien es el decano de Ciencias Administrativas 
+    - Quien es el decano de ciencias Contables
+    - Quien es el decano de contabilidad
+    - Quien es el decano de administracion de empresas
+    - quien es el director de administracion de empresas
+    - quien es el director de contabilidad
+    - quien es el representante de administracion de empresas
+    - quien es el representante de contabilidad
+
+- intent: Facultad_Tecnicos_Laborales
+  examples: |
+    - Quien es el decano de los tecnicos laborales
+    - quien es el director de los tecnicos laborales
+    - quien es el representante de los tecnicos laborales

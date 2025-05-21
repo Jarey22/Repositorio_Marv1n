@@ -19,7 +19,19 @@ intents:
 - estado
 - cursos_complementarios
 - herramientas
-
+- horario
+- cronograma
+- sedes
+- sede_rionegro
+- sede_galerias
+- sede_principal
+- ingreso_Sai
+- Facultad_Tecnicos_Laborales
+- Facultad_de_Ciencias
+- Facultad_Artes
+- Facultad_Ingenieria
+- Facultad_Ingenierias_electrica_mecatronica
+- Facultad_Ingenierias_sistemas_industrial
 
 responses:
   utter_greet:
@@ -102,10 +114,66 @@ responses:
   - text: y tu?
 
   utter_cursos_complementarios:
-  - text: Para inscribir un curso complementario, deberías haber recibido un formulario de Google Forms en tu correo institucional con toda la información sobre los cursos disponibles y sus horarios. Si no has recibido este enlace, puedes comunicarte al correo xxxx@institucion.edu o dirigirte directamente a la Oficina de Bienestar para obtener más detalles. En caso de que las opciones registradas no te funcionen, también puedes consultar con la misma oficina sobre la apertura de nuevos cursos complementarios de manera virtual. Recuerda que para completar los requisitos de grado, en el nivel técnico debes cumplir con al menos un curso complementario, en el nivel tecnológico con dos, y en el nivel profesional con uno.
+  - text: "Para inscribir un curso complementario, deberías haber recibido un formulario de Google Forms\n en tu correo institucional con toda la información sobre los cursos disponibles y sus horarios. Si no has recibido este enlace,\n puedes comunicarte al correo nombre.apellido123@cide.edu.co o dirigirte directamente a la Oficina de Bienestar para obtener más detalles. En caso de que las opciones registradas no te funcionen,\n también puedes consultar con la misma oficina sobre la apertura de nuevos cursos complementarios de manera virtual. Recuerda que para completar los requisitos de grado, en el nivel técnico debes cumplir con al menos un curso complementario,\n en el nivel tecnológico con dos, y en el nivel profesional con uno."
 
   utter_herramientas:
   - text:  La universidad ofrece una variedad de recursos para apoyar el desarrollo académico de los estudiantes, incluyendo dos salas especializadas con equipos Windows o Mac, herramientas para ejercicios eléctricos y videobeams, ubicadas en la sede principal (segundo piso) y en la sede Rionegro (tercer piso). Además, los estudiantes tienen acceso a la sala de cómputo de la sede principal fuera del horario de clases para realizar ejercicios. Junto con estos espacios, la universidad cuenta con una biblioteca física que ofrece libros sobre pensamiento crítico y temas tratados en clase, así como la biblioteca virtual E-book, que proporciona acceso a una amplia gama de recursos digitales, todo diseñado para complementar el aprendizaje y fomentar el desarrollo académico.
+
+  utter_cronograma:
+    - text:  Si deseas consultar alguna la programación para el presente periodo lectivo, puedes consultar el calendario académico en el siguiente enlace  [https://cide.edu.co/calendario-academico/]
+
+  utter_horario:
+    - text:  El horario de atención de cide es de Lunes a Viernes de 7 AM a 5 PM y sabados de 7AM a 12PM en la Sede Principal y Rionegro.
+
+  utter_ingreso_Sai:
+    - text:  Para consultar tu horario debes ingresar a SAI [http://www.cide.edu.co:8080/estudiantes/] y oprimir en la opción de consultar inscripciones por periodo .
+
+  utter_direccion_principal:
+    - text:  Sede Principal Calle 41 N°27a - 57, Teusaquillo, Bogotá
+
+  utter_direccion_rio_negro:
+    - text:  Sede Rionegro Carrera 60 N°97 - 40, Suba, Bogotá
+    
+  utter_direccion_galerias:
+    - text: " Sede Galerías Carrera 21 N°43, Bogotá, Cundinamarca,\n- Pero actualmente se encuentra deshabilitada"
+
+  utter_direccion_sedes:
+    - text:  |
+             Las sedes actuales de CIDE son:
+             Sede Galerías Carrera 21 N°43, Bogotá, Cundinamarca, Pero actualmente se encuentra deshabilitada
+             Sede Rionegro Carrera 60 N°97 - 40, Suba, Bogotá
+             Sede Principal Calle 41 N°27a - 57, Teusaquillo, Bogotá
+
+  utter_decanos_ingenierias:
+    - text:  |
+             Los Decanos de La Facultad de Ingenieria Son:
+             Decano de Ing.Electrica/Mecatronica JOZEP EVANS CASTILLO CASTRO • decingenierias@cide.edu.co
+             Decano de Ing.Sistemas/Industrial FABIO ENRIQUE SALCEDO SARMIENTO • decingenierias2@cide.edu.co
+
+  utter_decano_sistemas:
+    - text:  |
+             El Decano de las ingenierias de Sistemas y Industrial es :
+             FABIO ENRIQUE SALCEDO SARMIENTO • decingenierias2@cide.edu.co
+
+  utter_decano_electrica:
+    - text:  |
+             El Decano de las ingenierias de Mecatronica y Electrica es :
+             JOZEP EVANS CASTILLO CASTRO • decingenierias@cide.edu.co
+
+  utter_decano_artes:
+    - text:  |
+             El Decano de la Facuktad de Artes es :
+             JAIME ANDRES SANDOVAL • decartecom@cide.edu.co
+
+  utter_direccion_contabilidad:
+    - text:  |
+             El Decano de la Facultad de Administracion de Empresas y Contabilidad es :
+             JHONATAN ANDRES BARRAGAN • dircienciasadmincont@cide.edu.co
+
+  utter_tecnicos_laborales:
+    - text:  |
+             El Decano de los Tecnicos Laborales es:
+             GESTOR ARTICULACION 3 • gestorarticulacion3@cide.edu.co
 
 actions:
 - utter_bot_name
@@ -120,3 +188,15 @@ actions:
 - utter_estado
 - utter_respuesta_estado
 - utter_cursos_complementarios
+- utter_cronograma
+- utter_horario
+- utter_direccion_rio_negro
+- utter_direccion_principal
+- utter_direccion_galerias
+- utter_direccion_sedes
+- utter_tecnicos_laborales
+- utter_direccion_contabilidad
+- utter_decano_artes
+- utter_decano_electrica
+- utter_decano_sistemas
+- utter_decanos_ingenierias
