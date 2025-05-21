@@ -162,7 +162,7 @@ responses:
 
   utter_decano_artes:
     - text:  |
-             El Decano de la Facuktad de Artes es :
+             El Decano de la Facultad de Artes es :
              JAIME ANDRES SANDOVAL • decartecom@cide.edu.co
 
   utter_direccion_contabilidad:
