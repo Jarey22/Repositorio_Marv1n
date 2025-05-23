@@ -31,6 +31,20 @@ nlu:
     - Chao
     - chao
 
+- intent: feedback_yes
+  examples: |
+    - sí
+    - claro
+    - por supuesto
+    - la verdad si
+
+- intent: feedback_no
+  examples: |
+    - no
+    - para nada
+    - no me sirvio
+    - no esta lo que busco
+
 - intent: affirm
   examples: |
     - sí
@@ -252,3 +266,10 @@ nlu:
     - Quien es el decano de los tecnicos laborales
     - quien es el director de los tecnicos laborales
     - quien es el representante de los tecnicos laborales
+
+- intent: el_mejor_profesor
+  examples: |
+    - Quien es el mejor profesor?
+    - quien es el mejor profesor?
+    - el mejor profesor
+    - cual es el mejor profesor

@@ -32,6 +32,9 @@ intents:
 - Facultad_Ingenieria
 - Facultad_Ingenierias_electrica_mecatronica
 - Facultad_Ingenierias_sistemas_industrial
+- feedback_yes
+- feedback_no
+- el_mejor_profesor
 
 responses:
   utter_greet:
@@ -57,11 +60,12 @@ responses:
   - text: Lo noto y me alegro por ti :D
 
   utter_goodbye:
-  - text: Hasta pronto
-  - text: Sayonara...
-  - text: ¡Hasta la vista!
-  - text: ¡Nos vemos!
-  - text: Te huelo luego viejo
+  - text: "¡Hasta luego! \n ¿Te pareció útil la asistencia? (sí/no)"
+  - text: "Hasta pronto \n ¿Te pareció útil la asistencia? (sí/no)"
+  - text: "Sayonara... \n ¿Te pareció útil la asistencia? (sí/no)"
+  - text: "¡Hasta la vista! \n ¿Te pareció útil la asistencia? (sí/no)"
+  - text: "¡Nos vemos! \n ¿Te pareció útil la asistencia? (sí/no)"
+  - text: "Te huelo luego viejo \n ¿Te pareció útil la asistencia? (sí/no)"
 
   utter_iamabot:
   - text: Soy un bot, ¿mola?
@@ -175,6 +179,16 @@ responses:
              El Decano de los Tecnicos Laborales es:
              GESTOR ARTICULACION 3 • gestorarticulacion3@cide.edu.co
 
+  utter_mejor_profesor:
+    - text: O melhor professor é Cesar Camilo Sepulveda
+    - text: Evidentemente Cecitar
+    - text: Claramente Cesar Camilo Sepulveda
+
+  utter_thanks_feedback:
+    - text: "¡Gracias por tu opinión!"
+    - text: "¡Gracias por votar hasta prontooo!!!"
+    - text: "¡Puedes volver cuando gustes aqui estare :D"
+
 actions:
 - utter_bot_name
 - action_get_news
@@ -200,3 +214,6 @@ actions:
 - utter_decano_electrica
 - utter_decano_sistemas
 - utter_decanos_ingenierias
+- utter_thanks_feedback
+- utter_mejor_profesor
+- action_feedback

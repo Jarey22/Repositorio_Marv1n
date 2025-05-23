@@ -7,6 +7,16 @@ rules:
   - intent: goodbye
   - action: utter_goodbye
 
+- rule: Guardar_feedback_positivo
+  steps:
+    - intent: feedback_yes
+    - action: action_feedback
+
+- rule: Guardar_feedback_negativo
+  steps:
+    - intent: feedback_no
+    - action: action_feedback
+
 - rule: Decir_que_es_un_robot_cada_vez_que_el_usuario_le_pregunta
   steps:
   - intent: bot_challenge
@@ -112,3 +122,7 @@ rules:
   - intent: Facultad_Ingenieria
   - action: utter_decanos_ingenierias
 
+- rule: pregunta_del_mejor_profesor
+  steps:
+  - intent: el_mejor_profesor
+  - action: utter_mejor_profesor
